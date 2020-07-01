@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbebd2597d292db44a2feaca5c61a8ca, type: 3}
+  m_Name: Player2
+  m_EditorClassIdentifier: 
+  playerName: Player2
+  maxLives:
+    useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: ab36849c890b73d45b5b55cce9b808bf, type: 2}
+  accelerateForce:
+    useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: efce2a338b9421c459673250a6df17c1, type: 2}
+  turnForce:
+    useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 81d5bb5057d437b47a670a3fc1cbd461, type: 2}
+  throwForce:
+    useConstant: 1
+    constantValue: 0
+    variable: {fileID: 0}
+  playerOffScreenEvent: {fileID: 11400000, guid: a02f10bc9b5348c4a8d202c960308033,
+    type: 2}
+  outOfBoundsEvent: {fileID: 11400000, guid: 716adeac9f94c914a9bb515371a52dbd, type: 2}
+  pauseGameEvent: {fileID: 11400000, guid: c87c3386413b6e942812678918e208cb, type: 2}
+  resetPlayerEvent: {fileID: 11400000, guid: 850199c92fdfeb04dbf7064ba927aae8, type: 2}
+  PlayerDeadEvent: {fileID: 11400000, guid: 43f088562514a7e4d915679ac195db77, type: 2}
+  currentLives: 3
+  currentAccelerateForce: 300
